@@ -24,14 +24,14 @@
         </header>
 
         <main>
-            <h1>You store about technology</h1>
+            <h1>Technology products for you</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex quos itaque perspiciatis harum eius, sed quasi illo aliquam doloribus quisquam natus, similique ratione laborum voluptate placeat soluta sit quia! Quod!</p>
         </main>
     </div>
 
     <div class="services">
             <div class="services-content">
-                <img src="images/headphone-title.png" alt="headphone">
+                <img src="images/smartphonesbg.png" alt="headphone">
     
                 <div class="services-title">
                     <h2>DISCOVER OUR PRODUCTS</h2>
@@ -44,15 +44,17 @@
     <div class="products">
             <h2>PRODUCTS</h2>
 
-            <nav>
-                <ul>
-                    <li><a data-id="headphone" href="#">Headphone</a></li>
-                    <li><a data-id="smatphone" href="#">Smatphone</a></li>
-                    <li><a data-id="smatwatch" href="#">Smatwatch</a></li>
-                </ul>
-            </nav>
+            
+            <div class="tab-links">
+                <button data-id="headphone" data-open>Prepare</button>
+                <button data-id="smartphone">Produce</button>
+                <button data-id="smartwatch">Delivery</button>
+              </div>
 
-                <div data-id="headphone" class="row-1">
+
+
+            <div class="tab-content">
+                <div id="headphone" class="row-1 ">
                     <div class="col-1">
                         <img src="images/headphone1.jpg" alt="" srcset="">
                         <h4>Red Printed T-shirt</h4>
@@ -106,7 +108,7 @@
                     </div>
                 </div>
     
-                <div data-id="smatphone" class="row-1">
+                <div id="smartphone" class="row-1 ">
                     <div class="col-1">
                         <img src="images/mobile1.jpg" alt="" srcset="">
                         <h4>Red Printed T-shirt</h4>
@@ -160,7 +162,7 @@
                     </div>
                 </div>
     
-                <div data-id="smatwatch" class="row-1">
+                <div id="smartwatch" class="row-1">
                     <div class="col-1">
                         <img src="images/watch1.jpg" alt="" srcset="">
                         <h4>Red Printed T-shirt</h4>
@@ -213,6 +215,8 @@
                         <p>$50.00</p>
                     </div>
                 </div>
+            </div>
+
 
 
     </div>
