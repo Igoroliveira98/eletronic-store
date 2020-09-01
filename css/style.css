@@ -147,14 +147,28 @@ img {
     list-style: none;
 }
 
-.products nav ul li a {
-    text-decoration: none;
-    color: #000;
-    position: relative;
-    padding: 10px;
+.products .tab-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
-.products nav ul li a::after {
+.products .tab-links button {
+    border: none;
+    background: transparent;
+  
+    text-transform: uppercase;
+    font-size: 16px;
+  
+    padding: 16px;
+  
+    outline: none;
+  
+    position: relative;
+}
+
+.products .tab-links button::after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -169,8 +183,8 @@ img {
     transition: .4s;
 }
 
-.products nav ul li a:hover::after,
-.products nav ul li a.active::after {
+.products .tab-links button:hover::after,
+.products .tab-links button.active::after {
     width: 100%;
 }
 
@@ -202,4 +216,8 @@ img {
 .products .row-1 .col-1 {
     padding: 10px;
     margin: 0 15px;
+}
+
+.products .row-1  .hiden-content {
+    display: none;
 }
