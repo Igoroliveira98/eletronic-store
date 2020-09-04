@@ -1,3 +1,5 @@
+![Website desing](https://github.com/Igoroliveira98/eletronic-store/blob/master/images/amostra.png)
+
 # Front End
 
 Olá pessoas. Esse foi um projeto bem divertido de fazer. Aqui se encontra um simples design para e-commerce de prodytos eletrônicos.
